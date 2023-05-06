@@ -1,5 +1,9 @@
 name: Check Markdown links
 
+# **What it does**: Check if a link is not working.
+# **Why we have it**: We want to make sure all links are valid.
+# **Who does it impact**: Everyone.
+
 on: push
 
 jobs:
