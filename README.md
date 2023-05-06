@@ -1,3 +1,3 @@
 # homelab
 
-[My YouTubew](https://www.youtube.com/@_vr)
+[My YouTube](https://www.youtube.com/@_vr)
