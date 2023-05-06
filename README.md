@@ -1,3 +1,3 @@
 # homelab
 
-[My website](https://vrl.sh/)
+[My YouTubew](https://www.youtube.com/@_vr)
