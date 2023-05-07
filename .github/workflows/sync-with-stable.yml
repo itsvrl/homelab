@@ -1,0 +1,26 @@
+name: Sync stable branch
+
+# **What it does**: Check if a link is not working.
+# **Why we have it**: We want to make sure all links are valid.
+# **Who does it impact**: Everyone.
+
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  sync-branches:
+    runs-on: self-hosted
+    name: Syncing branches
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Opening pull request
+        id: pull
+        uses: tretuna/sync-branches@1.4.0
+        with:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          FROM_BRANCH: "staging"
+          TO_BRANCH: "stable"
+          CONTENT_COMPARISON: true
