@@ -10,6 +10,7 @@
 # **Who does it impact**: Everyone interacting with the homelab services.
 ```
 
+
 # Basic concept
 
 Using Github repo to configure services and configs. Utilizing Github secrets to store Environment variables and secrets.
