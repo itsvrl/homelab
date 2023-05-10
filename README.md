@@ -12,7 +12,7 @@
 # **Who does it impact**: Everyone interacting with the homelab services.
 ```
 
-# Basic concept
+# Basic concept and description
 
 Using Github repo to configure services and configs. Utilizing Github secrets to store Environment variables and secrets.
 
@@ -23,6 +23,26 @@ Github Action is responsible for checking if documentation links is out-dated, l
 # Join us in discussions
 
 We use GitHub Discussions to talk about all sorts of topics related to documentation and this site. For example: if you'd like help troubleshooting a PR, have a great new idea, or want to share something amazing you've learned in our docs, join us in the discussions.
+
+# Installation
+
+To use this you need Ansible, Python and OpenSSH installed.
+
+# Support
+
+Due to how small this project is, there will be no given support to this project. However tiny questions might be pitched on the [local Discord server](https://discord.gg/jTuA4tw).
+
+# Roadmap
+
+The plan is to use this repo as hub for the homelab. Everything from packages, configs and everything else in the homelab controlled from Github code.
+
+# License
+
+For this open source project, we are using Apache License 2.0.
+
+# Project status
+
+This is a long-term slow project, low-frequency update with tiny incremental updates from time to time.
 
 # Thanks 💜
 
