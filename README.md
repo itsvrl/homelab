@@ -12,6 +12,7 @@
 # **Who does it impact**: Everyone interacting with the homelab services.
 ```
 
+
 # Basic concept and description
 
 Using Github repo to configure services and configs. Utilizing Github secrets to store Environment variables and secrets.
@@ -23,6 +24,7 @@ Github Action is responsible for checking if documentation links is out-dated, l
 # Join us in discussions
 
 We use GitHub Discussions to talk about all sorts of topics related to documentation and this site. For example: if you'd like help troubleshooting a PR, have a great new idea, or want to share something amazing you've learned in our docs, join us in the discussions.
+
 
 # Installation
 
