@@ -4,6 +4,8 @@
 
 # Homelab
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CONTIBUTING.md) 
+
 ```yml
 # **What it does**: This repo manages the homelab automaticlly.
 # **Why we have it**: We want to make sure that less job is done physiclly and automate everything.
